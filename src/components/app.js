@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
 
-import Booklist from '../constainers/book-list';
-import BookDetail from '../constainers/book-detail';
+import SearchBar from '../constainers/search-bar';
 
 
 export default class App extends Component {
   render() {
     return (
       <div>
-        <Booklist />
-        <BookDetail />
+        <SearchBar />
       </div>
     )
   }
